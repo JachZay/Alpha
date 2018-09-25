@@ -1,0 +1,15 @@
+﻿  callFrom.cpp
+c:\users\bigre\source\repos\project8\project8\callfrom.cpp(64): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\bigre\source\repos\project8\project8\callfrom.cpp(247): warning C4101: 'damage': unreferenced local variable
+c:\users\bigre\source\repos\project8\project8\callfrom.cpp(247): warning C4101: 'passfail': unreferenced local variable
+c:\users\bigre\source\repos\project8\project8\callfrom.cpp(247): warning C4101: 'advantage': unreferenced local variable
+c:\users\bigre\source\repos\project8\project8\callfrom.cpp(247): warning C4101: 'victory': unreferenced local variable
+  mainCompile.cpp
+  Generating Code...
+mainCompile.obj : error LNK2005: "int * invDamage" (?invDamage@@3PAHA) already defined in callFrom.obj
+mainCompile.obj : error LNK2005: "int * invRange" (?invRange@@3PAHA) already defined in callFrom.obj
+mainCompile.obj : error LNK2005: "int victorycount" (?victorycount@@3HA) already defined in callFrom.obj
+mainCompile.obj : error LNK2005: "int phealth" (?phealth@@3HA) already defined in callFrom.obj
+mainCompile.obj : error LNK2005: "int ohealth" (?ohealth@@3HA) already defined in callFrom.obj
+mainCompile.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * invNames" (?invNames@@3PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in callFrom.obj
+C:\Users\bigre\source\repos\Project8\x64\Debug\Project8.exe : fatal error LNK1169: one or more multiply defined symbols found
